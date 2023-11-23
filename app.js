@@ -1,4 +1,7 @@
 const endDate = "24 November 2023 10:00 PM";
+
+document.getElementById("end-date").innerText = endDate
+
 const inputs = document.querySelectorAll("input");
 
 function updateCountdown() {
